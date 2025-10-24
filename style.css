@@ -1,0 +1,129 @@
+
+/*Rubriker*/
+/*Huvudrubrik*/
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(245, 120, 120);
+    font-size: 40px;
+    text-align: center;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-right: 5%;
+}
+
+.fortsättningrubrik{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(245, 120, 120);
+    font-size: 20px;
+    text-align: center;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    padding-right: 5%; 
+}
+
+.underrubrik{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(245, 120, 120);
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+} 
+
+.boktitel{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    text-align: left;
+    font-weight: bold;
+}
+
+/*Textstycken*/
+.introtext{
+    color: rgb(204, 75, 154);
+    font-size: 20px;
+    text-align: left;
+}
+
+.body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}   
+
+p {
+    line-height: 1.5;
+    margin: 10px 0;
+}  
+
+/*Avdelare*/
+hr {
+    border: none;
+    height: 3px;
+    color: blue;
+    margin-top: 20px;
+    width: 100%;
+}
+
+/*Länkar, knappar och bilder*/
+a {
+    color: #2d30d3;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.bildstorlek {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/*Layout och struktur*/
+.sidhuvud {
+    width: 90%;
+    height: 90%;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border: #333333 5px solid;
+    border-radius: 20px;
+    background-color: #fadbdb;
+    margin-bottom: 20px;
+}
+
+.navigationsmeny {
+    background-color: #fadbdb;
+    padding: 10px;
+    text-align: left;
+    float: left;
+    max-width: 30%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border: #333333 3px solid;
+    border-radius: 20px;
+}
+
+.presentation {
+    padding: 10px;
+    padding-right: 30px;
+    text-align: left;
+    float: right;
+    max-width: 60%;
+    margin: 10px;
+}
+
+.sidfot {
+    clear: both;
+    width: 100%;
+    height: auto;
+    background-color: deepskyblue;
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+    
+}
